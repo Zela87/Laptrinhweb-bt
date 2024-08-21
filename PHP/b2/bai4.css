@@ -1,0 +1,82 @@
+/* Căn giữa nội dung */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Khung chứa nội dung */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Tiêu đề */
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Nhãn và đầu vào */
+label {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    width: calc(100% - 22px); /* Đảm bảo không tràn ra ngoài container */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Nút kiểm tra */
+button {
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Khung kết quả */
+.result-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Đoạn văn bản trong kết quả */
+.result-box p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Nhấn mạnh phần tử */
+.result-box p strong {
+    color: #2c3e50;
+}
